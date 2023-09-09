@@ -1,8 +1,15 @@
 
 
+import Header from "./Header"
 
 function App() {
-  return ;
+ 
+
+  return (
+    <div>
+      <Header />
+    </div>
+  )
 }
 
-export default App;
+export default App
