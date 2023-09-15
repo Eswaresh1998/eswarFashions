@@ -1,21 +1,26 @@
+body{
+  background-color: #000000;
+  color: #FFFFFF;
+  width: 99%;
+  overflow-x: hidden;
+}
 .Header-Container{
   display: flex;
-  height : 30%;
+  height : 10%;
   width : 100%;
-  background-color:antiquewhite;
+  background-color:#FFFFFF;
   justify-content: space-between;
   align-items: center;
-  padding: 2% 5%;
-  box-sizing: border-box;
-  position: fixed;
-  z-index: 1; 
+  color:#000000
 }
 .Logo-Container{
   width :auto
 }
 .Logo {
-  height: 170px;
-  width: 320px;
+  height: 150px;
+  width: 300px;
+  margin-left: 5%;
+  margin-top: 2%;
 }
 .Navigation-Container{
   width: 50%
@@ -46,4 +51,86 @@
  
 }
 
+.Product-card{
+ max-width: 20%;
+ margin-bottom: 8%;
+ box-shadow: 0px 2px 4px rgba(177, 174, 174, 0.2); /* Soft shadow for depth */
+border: 1px solid #ccc; /* Border for the card */
+ border-radius: 6px; /* Rounded corners */
+  /* Margin around the card */
+ transition: transform 0.2s, box-shadow 0.2s; 
+ max-height: 35em;
+ overflow: hidden;
+ 
 
+}
+
+.Product-card:hover{
+  transform: translateY(-4px) translateZ(50px); /* Elevate the card on hover */
+  box-shadow: 0px 8px 12px rgba(255, 246, 246, 0.55); /* Increase shadow on hover */
+
+}
+
+.Product-container{
+  margin-top: 5%;
+  margin-left: 2.5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.Product-Image{
+ height :70%;
+  width: 100%;
+}
+.Info-Page{
+  margin-left: 3%;
+}
+.size-name
+ { color:
+#fff;
+/*
+ Text color */
+background-color:
+#333;
+/*
+ Background color */
+border:
+ none; /*
+ No border */
+border-radius:
+4px;
+/*
+ Rounded corners */
+padding:
+10px
+20px;
+/*
+ Padding inside the button */
+cursor:
+ pointer; /*
+ Show pointer cursor on hover */
+transition:
+ background-color 0.2s,
+ color 0.2s;
+/*
+ Smooth color transition on hover */
+margin-left:
+1%;
+font-size:
+14px;
+/*
+ Adjust the font size */ }
+.size-name:hover
+ { background-color:
+#555;
+/*
+ Darker background color on hover */
+color:
+#fff;
+/*
+ Lighter text color on hover */ }
+
+.sizes{
+  margin-top: 2%;
+}
