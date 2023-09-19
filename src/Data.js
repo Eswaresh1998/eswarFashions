@@ -1,5 +1,5 @@
 
-    const Data = [{
+    const Data1 = [{
         "id": "43662586478754",
         "image": {
             "src": "\/\/www.snitch.co.in\/cdn\/shop\/files\/4MSD3621-01-3226.jpg?v=1694238208"
@@ -951,4 +951,4 @@
         "untranslatedTitle": "Maroon \/ S"
     }]
 
-    export default Data;
+   export default Data1

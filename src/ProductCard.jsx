@@ -1,6 +1,6 @@
-import Data from './Data';
 
-const data ={Data};
+
+
 const ProductCard =(props)=>{
   const { resData } = props;
  
